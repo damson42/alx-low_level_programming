@@ -1,5 +1,5 @@
 #include "main.h"
-#include <holberton.h>
+#include <studio.h>
 /**
  * rev_string - This fuction print a string reverser
  * @s: this is the pointer that point to a string
@@ -21,10 +21,10 @@ void rev_string(char *s)
 		char x;
 
 		x = *end;
-											*end = *begin;
-											*begin = x;
-											begin++;
-											end--;
+		*end = *begin;
+		*begin = x;
+		begin++;
+		end--;
 		}
 		end[len + 1] = '\0';
 }
