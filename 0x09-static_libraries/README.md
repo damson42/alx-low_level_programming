@@ -1,1 +1,1 @@
-My Static Commit
+Statis on C Creating Libraries
